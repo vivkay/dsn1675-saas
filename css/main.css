@@ -49,6 +49,11 @@ body {
     width: 15%;
     margin: 16px;
     padding: 0;
+    display: inline-block;
+}
+
+.caps {
+    text-transform:capitalize;
 }
 
 a:focus {
@@ -90,6 +95,23 @@ a:focus {
   color: #008b8b;
 }
 
+.nav li {
+	color: #e0ffff;
+	display: block;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	color: #e0ffff;
+}
+
+.nav {	
+	list-style-type: none;
+	padding: 0;
+}
+
+
 /** banner with phone behind
 .banner {
     width: 100%;
@@ -110,6 +132,24 @@ a:focus {
     background-color: rgba(255,0,0,0.5);
 }
 **/ 
+
+
+@media only screen and (min-width: 25em) {
+	
+	.nav li {
+		display: inline-block;
+	}
+	
+	.nav {
+		text-align: center;
+	}
+	
+    
+@media only screen and (min-width: 38em) {
+    	.nav {
+		float: right;
+	}	
+    
 
 
     
