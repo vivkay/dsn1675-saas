@@ -14,7 +14,6 @@ html {
 	text-size-adjust: 100%;
 }
 
-
 @media only screen and (min-width: 60em) {
 	 html {
 		 
@@ -46,14 +45,8 @@ body {
 }
 
 .logo {
-    width: 15%;
-    margin: 16px;
+    width: 200px;
     padding: 0;
-    display: inline-block;
-}
-
-.caps {
-    text-transform:capitalize;
 }
 
 a:focus {
@@ -111,28 +104,23 @@ a:focus {
 	padding: 0;
 }
 
-
-/** banner with phone behind
-.banner {
-    width: 100%;
-    height: 16em;
-    background-color: rgba(255, 208, 48, .7);
-    background-image: url("../img/iphone5-wikipedia.png");
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position: center center;
-} **/
-
-/**
-.title {
-    font-weight:400;
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    background-color: rgba(255,0,0,0.5);
+.intro {
+    display: block;
+    align-content: center;
+    margin: 10%;
 }
-**/ 
 
+.caps {
+    text-transform:capitalize;
+}
+
+.accent-red {
+    color: #FF3300;
+}
+
+.accent-grey {
+    color: #9B9BB4;
+}
 
 @media only screen and (min-width: 25em) {
 	
@@ -143,13 +131,33 @@ a:focus {
 	.nav {
 		text-align: center;
 	}
-	
+    
+    .logo {
+        xdisplay: inline-block;
+        xalign-content: center;
+    }
+}	
     
 @media only screen and (min-width: 38em) {
     	.nav {
-		float: right;
+		text-align: right;
 	}	
     
+     .logo {
+        xdisplay: inline-block;
+        xalign-content: right;
+}	
+    
+}
 
-
+@media only screen and (min-width: 60em) {
+   	    
+    .logo {
+        xdisplay: inline-block;
+        xalign-content: right; 
+        
+}	
+  
+    
+}
     

@@ -7,7 +7,7 @@
 /** Type styles from http://thomasjbradley.github.io/typografier/ and set to 'minor third' scale **/
 
 html {
-  font: normal 100%/1.5 'Oswald',sans-serif;
+  font: normal 100%/1.5 'quattrocento sans',sans-serif;
 }
 
 
@@ -197,5 +197,26 @@ sub {
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
+}
+
+h1, h2, h3, h4, h5, h6, 
+.brand-family {
+font-family: "Oswald", sans-serif;
+}
+
+.default-family {
+  font-family: "Quattrocento Sans",serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
 }
 
