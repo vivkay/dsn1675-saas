@@ -189,6 +189,34 @@ a:active {
     background-image: linear-gradient(to bottom, #ff6767, #ff0d0d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff6767, endColorstr=#ff0d0d);
 }
 
+.footer-color {
+    background-color: #D4D4CB;
+}
+	
+.nav-footer {
+	text-align: left;
+}
+
+.nav-footer a,
+.nav-footer a:link,
+.nav-footer a:visited {
+	display: inline-block;
+}
+
+.nav-footer a:hover,
+.nav-footer a:focus,
+.nav-footer a:active,
+.nav-footer .nav-current,
+.nav-footer .nav-current:link,
+.nav-footer .nav-current:visited {
+    background-color: #D4D4CB;
+    color: blue;
+}
+	
+.copyright-footer {
+	text-align: left;
+}
+
 @media only screen and (min-width: 25em) {
 	
      .nav {
