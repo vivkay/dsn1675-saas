@@ -199,13 +199,17 @@ sub {
   padding-right: 3.0000rem;
 }
 
+.h1-custom {
+    font-family: "Oswald", sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6, 
 .brand-family {
-font-family: "Oswald", sans-serif;
+font-family: "Quattrocento Sans", sans-serif;
 }
 
 .default-family {
-  font-family: "Quattrocento Sans",serif;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 .bold {
