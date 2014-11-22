@@ -57,9 +57,10 @@ body {
 }
 
 a:focus {
-	outline:3px solid #000;
+  outline: 2px solid red;
 }
 
+/** THOMAS: why do I have a tags here and .nav a tags below-do I need both? **/
 a,
 a:link,
 a:visited {
@@ -71,32 +72,31 @@ a:active {
   outline: none;
 }
 
-a:focus {
-  outline: 2px solid #FF3300;
-}
-
+/**this affects inactive buttons**/
 .nav a,
-.nav a:link,
+.nav a:link,    
 .nav a:visited {
   display: block;
 
-  color: #9B9BB4;
+  color: #5D5D6C;
   text-decoration: none;
 }
 
+/**this affects active buttons**/
 .nav a:hover,
 .nav a:focus,
 .nav a:active,
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: #9B9BB4;
+  background-color: white;
 
-  color: #5D5D6C;
+  color: black;
 }
 
+/** THOMAS: what do these .nav elements colour? when I change the colours I don't see a difference **/
 .nav li {
-	color: #e0ffff;
+	color: white;
 	display: block;
 }
 
@@ -122,21 +122,21 @@ a:focus {
 .caps {
     text-transform:capitalize;
 }
-
+/** can delete red **/
 .accent-red {
     color: #FF3300;
 }
 
+.accent-orange {
+    color: #FF6600;
+}
+
 .accent-grey {
-    color: #9B9BB4;
+    color: #4C4C46;
 }
 
-.accent-dark-grey {
-    color: #5D5D6C;
-}
-
-.background-beige {
-    background-color: #F8F0D8;
+.background-color {
+    background-color: #FFFFEB;
 }
 
 .title {
@@ -173,9 +173,9 @@ a:focus {
     .nav .nav-current,
     .nav .nav-current:link,
     .nav .nav-current:visited {
-      background-color: white;
+      background-color: #FFFFEB;
 
-      color: #5D5D6C;
+      color: red;
     }
 }	
     
