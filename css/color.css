@@ -1,0 +1,37 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+.accent-red {
+    color: #FF3300;
+}
+
+.accent-orange {
+    color: #FF6600;
+}
+
+.accent-white {
+    color: white;
+}
+
+.accent-grey {
+    color: #4C4C46;
+}
+
+.background-beige {
+    background-color: #FFFFEB;
+}
+
+.background-light {
+    background-color: #EEEEEA;
+}
+
+.background-charcoal {
+    background-color:#4C4C46;
+}
+
+.footer-color {
+    background-color: #D4D4CB;
+}

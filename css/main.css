@@ -146,34 +146,6 @@ a:active {
 .align-center {
     text-align: center;
 }
-
-.accent-red {
-    color: #FF3300;
-}
-
-.accent-orange {
-    color: #FF6600;
-}
-
-.accent-white {
-    color: white;
-}
-
-.accent-grey {
-    color: #4C4C46;
-}
-
-.background-beige {
-    background-color: #FFFFEB;
-}
-
-.background-light {
-    background-color: #EEEEEA;
-}
-
-.background-charcoal {
-    background-color:#4C4C46;
-}
     
 .title {
     text-align: center;
@@ -225,9 +197,7 @@ a:active {
     background-image: linear-gradient(to bottom, #ff6767, #ff0d0d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff6767, endColorstr=#ff0d0d);
 }
 
-.footer-color {
-    background-color: #D4D4CB;
-}
+
 	
 .nav-footer {
 	text-align: left;
@@ -284,6 +254,9 @@ a:active {
     margin-bottom: auto;
 }
  
+.hide-small {
+    display:none;
+}
 
 @media only screen and (min-width: 25em) {
 	
@@ -355,6 +328,10 @@ a:active {
         display: inline-block;
         text-align: right;
    }
+    
+    .hide-small {
+        display: block;
+    }
     
 }
 
