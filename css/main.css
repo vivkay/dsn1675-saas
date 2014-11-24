@@ -56,15 +56,36 @@ body {
     margin: 0 auto;
 }
 
+.skip-links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}	
+
+.skip-links a {
+	position: absolute;
+	top: -3em;
+	padding: 0.5em 0.75em;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+.skip-links a:focus {
+	top: 0;
+}
+
 a:focus {
   outline: 2px solid red;
 }
 
-/** THOMAS: why do I have a tags here and .nav a tags below-do I need both? **/
+/** This affects hotlinks in text **/
 a,
 a:link,
 a:visited {
-  color: #7fffd4;
+  color: #5D5D6C;
 }
 
 a:hover,
@@ -116,13 +137,16 @@ a:active {
 .intro {
     display: block;
     align-content: center;
-    margin: 10%;
 }
 
 .caps {
     text-transform:capitalize;
 }
-/** can delete red **/
+
+.align-center {
+    text-align: center;
+}
+
 .accent-red {
     color: #FF3300;
 }
@@ -131,14 +155,26 @@ a:active {
     color: #FF6600;
 }
 
+.accent-white {
+    color: white;
+}
+
 .accent-grey {
     color: #4C4C46;
 }
 
-.background-color {
+.background-beige {
     background-color: #FFFFEB;
 }
 
+.background-light {
+    background-color: #EEEEEA;
+}
+
+.background-charcoal {
+    background-color:#4C4C46;
+}
+    
 .title {
     text-align: center;
 }
@@ -210,16 +246,56 @@ a:active {
 .nav-footer .nav-current:link,
 .nav-footer .nav-current:visited {
     background-color: #D4D4CB;
-    color: blue;
 }
 	
 .copyright-footer {
 	text-align: left;
 }
 
+/** THOMAS: this image is not moving to the center? **/
+
+.image-centered {
+    width: 60%;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+}
+
+.foot-nav {
+       display: none;
+}
+
+.right {
+    float: right;
+}
+
+.clear-margins {
+    margin: 0;
+}
+
+.vertical-align {
+    vertical-align: text-top;
+}
+
+.vertical {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ 
+
 @media only screen and (min-width: 25em) {
 	
-     .nav {
+    .align-left {
+        text-align: left;
+    }
+    
+    .align-right {
+        text-align: right;
+    }
+    
+    .nav {
 		text-align: right;
         font-size: 1.7280rem;
         line-height: 1.7361;
@@ -251,6 +327,7 @@ a:active {
 
       color: red;
     }
+    
 }	
     
 @media only screen and (min-width: 38em) {
@@ -268,7 +345,16 @@ a:active {
         display: none;
     }
     
-   
+    .foot-top {
+        display: none;
+    }
+    
+/** I can't get my footer navigation to appear at these screen sizes **/
+    
+    .foot-nav {
+        display: inline-block;
+        text-align: right;
+   }
     
 }
 
