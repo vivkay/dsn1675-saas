@@ -111,22 +111,15 @@
         
     </main>   
         
-<!-- THOMAS Would this (underneath element for 'get started' prompt) be in the footer element? I can't put it in 'main' because I want it to be flush against the edges and my main body has gutters?? 
-
-Also, I can't get the 'Get Started' type to align center. I took the margins off but it's stuck at the top? Trying to make top and bottom margins auto doesn't work either. -->
+<!-- THOMAS my caps class isn't working on the h3 element here -->
         
-        <div class="grid background-charcoal grid-middle">
-            
-            <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 island pad">
-                <h4 class="accent-white clear-margins">Get Started (for free)!</h3>
+        <div class="grid background-charcoal grid-middle island align-center">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island pad">
+                <h3 class="accent-white clear-margins caps">Try it yourself !</h3>
             </div>
-    
-<!-- VIV add a tag not form --> 
-            
-        <form action="pricing.html" method="get" class="button unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 island">
-                <button type="submit" class="tera button-example">Free&nbsp;Trial</button>
-            </form>
-            
+            <div class="button-example unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
+                <a href="setup.html">FREE&nbsp;TRIAL</a>
+            </div>
         </div>
         
     <footer class="grid footer-color island-half">
@@ -134,8 +127,12 @@ Also, I can't get the 'Get Started' type to align center. I took the margins off
 			<p class="micro push-none copyright-footer">© 2014 Hubaloo SAAS by Vivienne Kay</p>
 		</div>
         
+<!-- THOMAS, I can't get my linked text 'back to top' in the footer to change colour. It is inheriting the white colour from the other .nav a element, and I'm not sure how to give it an overriding class. I also can't get the underline to go away, even though I have text-decoration: none on the class. :( -->
+        
+<!-- THOMAS, how do I make it so that you can click anywhere around the button and it will go to the link (rather than having to click on the text itself?-->
+        
         <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-hidden unit-l-hidden align-right">
-            <a href="index.html" class="button-top">Back to Top</a>
+            <a href="index.html" class="tera button-example">Back to Top</a>
         </div>
 
         <div class="unit unit-xs-hidden unit-s-hidden unit-m-1-2 unit-l-1-2 align-right">
