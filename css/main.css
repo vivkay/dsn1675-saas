@@ -85,7 +85,7 @@ a:focus {
 a,
 a:link,
 a:visited {
-  color: #5D5D6C;
+  color: white;
 }
 
 a:hover,
@@ -110,21 +110,17 @@ a:active {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: white;
-
   color: black;
 }
 
-/** THOMAS: what do these .nav elements colour? when I change the colours I don't see a difference **/
 .nav li {
-	color: white;
 	display: block;
 }
 
 .nav a {
 	text-decoration: none;
 	display: block;
-	color: #e0ffff;
+	color: white;
     padding-top: 2.5rem; 
 }
 
@@ -156,17 +152,12 @@ a:active {
 	background-color: white;
 	border-color: red;
 	cursor: pointer;
-}
-
-/** THOMAS: 
-- is this code for the button with a gradient correct? Source from http://cssgradientbutton.com/#
-- I tried to add text-transform: capitalize but it won't work
-**/ 
+} 
 
 .button-example{
     border:1px solid #ff6262;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;border-radius: 3px;font-size:12px;
+    border-radius: 3px;
+    font-size:12px;
     font-family: "quattrocento sans", sans-serif;
     font-size: 24px;
     text-transform: capitalize;
@@ -176,28 +167,15 @@ a:active {
     text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
     font-weight:bold; color: #FFFFFF;
     background-color: #ff9a9a; 
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9a9a), to(#ff4040));
-    background-image: -webkit-linear-gradient(top, #ff9a9a, #ff4040);
-    background-image: -moz-linear-gradient(top, #ff9a9a, #ff4040);
-    background-image: -ms-linear-gradient(top, #ff9a9a, #ff4040);
-    background-image: -o-linear-gradient(top, #ff9a9a, #ff4040);
     background-image: linear-gradient(to bottom, #ff9a9a, #ff4040);
-    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff9a9a, endColorstr=#ff4040);
 }
 
 .button-example:hover{
     cursor: pointer;
     border:1px solid #ff3434;
     background-color: #ff6767;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff6767), to(#ff0d0d));
-    background-image: -webkit-linear-gradient(top, #ff6767, #ff0d0d);
-    background-image: -moz-linear-gradient(top, #ff6767, #ff0d0d);
-    background-image: -ms-linear-gradient(top, #ff6767, #ff0d0d);
-    background-image: -o-linear-gradient(top, #ff6767, #ff0d0d);
-    background-image: linear-gradient(to bottom, #ff6767, #ff0d0d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff6767, endColorstr=#ff0d0d);
+    background-image: linear-gradient(to bottom, #ff6767, #ff0d0d);
 }
-
-
 	
 .nav-footer {
 	text-align: left;
@@ -207,22 +185,13 @@ a:active {
 .nav-footer a:link,
 .nav-footer a:visited {
 	display: inline-block;
-}
-
-.nav-footer a:hover,
-.nav-footer a:focus,
-.nav-footer a:active,
-.nav-footer .nav-current,
-.nav-footer .nav-current:link,
-.nav-footer .nav-current:visited {
-    background-color: #D4D4CB;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 	
 .copyright-footer {
 	text-align: left;
 }
-
-/** THOMAS: this image is not moving to the center? **/
 
 .image-centered {
     width: 60%;
@@ -231,10 +200,6 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     padding-top: 0;
-}
-
-.foot-nav {
-       display: none;
 }
 
 .right {
@@ -253,11 +218,8 @@ a:active {
     margin-top: auto;
     margin-bottom: auto;
 }
- 
-.hide-small {
-    display:none;
-}
-
+    
+    
 @media only screen and (min-width: 25em) {
 	
     .align-left {
@@ -296,8 +258,6 @@ a:active {
     .nav .nav-current,
     .nav .nav-current:link,
     .nav .nav-current:visited {
-      background-color: #FFFFEB;
-
       color: red;
     }
     
@@ -316,21 +276,6 @@ a:active {
     
     .icon {
         display: none;
-    }
-    
-    .foot-top {
-        display: none;
-    }
-    
-/** I can't get my footer navigation to appear at these screen sizes **/
-    
-    .foot-nav {
-        display: inline-block;
-        text-align: right;
-   }
-    
-    .hide-small {
-        display: block;
     }
     
 }
