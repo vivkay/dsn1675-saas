@@ -219,8 +219,11 @@ a:active {
     margin-bottom: auto;
 }
 
-.no-line {
+.to-top
+.to-top:link,
+.to-top:visited {
     text-decoration: none;
+    color: grey;
 }  
     
 @media only screen and (min-width: 25em) {
