@@ -50,6 +50,10 @@ body {
     display: block;
 }
 
+.width-80 {
+    width: 80%;
+}
+
 .logo {
     width: 200px;
     padding: 0;
@@ -116,7 +120,7 @@ a:active {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  color: black;
+    color: red;
 }
 
 .nav li {
@@ -290,7 +294,10 @@ a:active {
         display: none;
     }
     
-}
+    .l-big {
+        font-size: 4.3832rem;
+        line-height: 1.3559;
+    }
 
 @media only screen and (min-width: 60em) {
    	    
