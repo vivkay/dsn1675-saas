@@ -130,6 +130,22 @@ a:active {
     font-size: 1.7280rem;
 }
 
+.nav-footer {
+	text-align: left;
+}
+
+.nav-footer a,
+.nav-footer a:link,
+.nav-footer a:visited {
+	display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+	
+.copyright-footer {
+	text-align: left;
+}
+
 .intro {
     display: block;
     align-content: center;
@@ -141,6 +157,15 @@ a:active {
 
 .align-center {
     text-align: center;
+}
+
+.image-centered {
+    width: 60%;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
 }
     
 .title {
@@ -176,31 +201,6 @@ a:active {
     background-color: #ff6767;
     background-image: linear-gradient(to bottom, #ff6767, #ff0d0d);
 }
-	
-.nav-footer {
-	text-align: left;
-}
-
-.nav-footer a,
-.nav-footer a:link,
-.nav-footer a:visited {
-	display: inline-block;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-	
-.copyright-footer {
-	text-align: left;
-}
-
-.image-centered {
-    width: 60%;
-    text-align:center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 0;
-}
 
 .right {
     float: right;
@@ -218,7 +218,10 @@ a:active {
     margin-top: auto;
     margin-bottom: auto;
 }
-    
+
+.no-line {
+    text-decoration: none;
+}  
     
 @media only screen and (min-width: 25em) {
 	
@@ -264,15 +267,15 @@ a:active {
 }	
     
 @media only screen and (min-width: 38em) {
-    	.nav {
-		text-align: right;
+    .nav {
+      text-align: right;
       font-size: 1.0000rem;
       line-height: 1.5000;
 	}	
     
      .logo {
         display: block;
-}	
+     }	
     
     .icon {
         display: none;
