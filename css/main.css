@@ -44,6 +44,12 @@ body {
 	padding: 0;
 }
 
+.width-50 {
+    width: 50%;
+    text-align: center;
+    display: block;
+}
+
 .logo {
     width: 200px;
     padding: 0;
