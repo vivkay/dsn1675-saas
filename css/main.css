@@ -178,7 +178,7 @@ a:active {
     padding-top: 0;
 }
     
-.title {
+.center {
     text-align: center;
 }
 
@@ -234,6 +234,7 @@ a:active {
 .to-top:visited {
     text-decoration: none;
     color: grey;
+    text-align: right;
 }  
 
 .icon {
