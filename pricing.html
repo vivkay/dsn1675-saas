@@ -2,11 +2,11 @@
 <html lang="en-ca">
 <head>
     <meta charset="utf-8">
-    <title>Hubaloo Pricing Page</title>
+    <title>Hubaloo: Features and Prices</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Oswald:400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -18,15 +18,13 @@
 	</ul>
     
     <header role="banner" class="grid background-beige">
-
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
             <a href="index.html">
                 <img src="img/hubaloo-logo.svg" alt="hubaloo logo" class="logo">
-                <img src="img/hubaloo-logo.svg" alt="hubaloo logo icon" class="icon">
+                <img src="img/saas-icon.svg" alt="hubaloo logo icon" class="icon">
             </a>
         </div>
-        
-    	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 title">
+    	<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 center">
 			<nav role="navigation" id="navigation">
 				<ul class="nav push-none">
 					<li><a class="island-half" href="index.html">Home</a></li>
@@ -35,8 +33,109 @@
 				</ul>
 			</nav>
 		</div>
-    
     </header>
+    
+    <main id="main" role="main">
+        <div class="background-beige grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 intro align-center island">
+                <h1 class="h3 terra caps accent-red align-center">Let's get you started…</h1>
+                <p class="mega accent-grey align-center">Like what you see? Hop over to our sign-up page</p>
+                <div class="align-center">
+                    <a href="setup.html" class="tera button-example">Sign me up!</a>
+                </div>
+            </div>
+        </div>
+            
+           
+            
+<!-- Thomas: I have hidden the table caption here (below) because I only want it for accessibility/audio purposes (it's visually cluttering). Is this the way to do it? -->
+            
+<!--Thomas: Wow. Have I made a total mess of this table?-->
+            
+<!--Viv: remember to delete border="1" off of thtable–this is just for previewing!-->
+
+        <table border="1">
+            <caption class="unit unit-xs-1-hidden unit-s-1-hidden unit-m-1-hidden unit-l-1-hidden">A summary of our Free Trial package</caption>
+            <thead>
+                <th scope="col">Free Trial</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                            <li>Feature 4</li>
+                            <li>Feature 5</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th> Price: FREEBIES! </th>
+            </tfoot>
+        </table>
+            
+<!--Thomas: This is my sorry attempt at an alternative (the table doesn't seem the best fit since I have no need for columns). I am trying to emulate what they have achieved here: http://sproutsocial.com/pricing but when I inspect their tables I get really confused (there's .js bits and a complicated seeming setup with headers and footers...it's another level of table-ception!-->
+
+        <div class="grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 intro island">
+                <div class="border">
+                    <h1 class="background-charcoal accent-white align-center">Free</h1>
+                    <p class="terra align-center">Easy-Peasy Startup with no costs</p>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                        <li>Feature 5</li>
+                    </ul>
+                    <a href="setup.html" class="h3 background-charcoal accent-white align-center">$0.00=Freebies!</a>
+                </div>
+            </div>
+
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 intro island">
+                <div class="border">
+                    <h1 class="background-charcoal accent-white align-center">Value</h1>
+                    <p class="terra align-center">Get started in style</p>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                        <li>Feature 5</li>
+                    </ul>
+                    <a href="setup.html" class="h3 background-charcoal accent-white align-center">$10.00/mo</a>
+                </div>
+            </div>
+
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 intro island">
+                <div class="border">
+                    <h1 class="background-charcoal accent-white align-center">Premium</h1>
+                    <p class="terra align-center">This might just change your life</p>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                        <li>Feature 5</li>
+                    </ul>
+                    <a href="setup.html" class="h3 background-charcoal accent-white align-center">$35.00/mo</a>
+                </div>
+            </div>
+
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 intro island">
+                <h1 class="accent-grey">Get Support</h1>
+                    <p>Call our support team to get more information on how Huballoo can fit into your personal or professional practice.</p>
+                <a href="setup.html" class="h3 background-charcoal accent-white align-center">Phone Consultation</a>
+            </div>
+            
+            <div class="unit unit-xs-hidden unit-s-hidden unit-m-1-hidden unit-l-1-2 island align-center align-left vertical">
+                <img src="img/saas-icon.svg" alt="image-placeholder">
+            </div>
+
+        </div>
 
 </body>
 </html>
