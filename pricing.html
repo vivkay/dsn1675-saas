@@ -7,6 +7,7 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
     <link href="css/color.css" rel="stylesheet">
+    <link href="css/button-styles.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Oswald:400,700' rel='stylesheet' type='text/css'>
 </head>
@@ -35,19 +36,19 @@
 		</div>
     </header>
     
+<!--Thomas, can you explain again why I have difficulties targeting my a class (to colour the type that's in this 'sign up' link, in this one instance)?-->
+    
     <main id="main" role="main">
         <div class="background-beige grid">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 intro align-center island">
                 <h1 class="h3 terra caps accent-red align-center">Let's get you started…</h1>
                 <p class="mega accent-grey align-center">Already love what you see? Hop over to our sign-up page</p>
                 <div class="align-center">
-                    <a href="setup.html" class="tera button-example">Sign me up!</a>
+                    <a href="setup.html" class="tera button-dark-outline accent-grey">Sign me up!</a>
                 </div>
             </div>
         </div>
-            
-           
-            
+      
 <!-- Thomas: I don't think I will use a 'table' but IF I do in the futre, is this the way to hide the caption element so that it can just be for audio/accessibility purposes (rather than adding visual clutter)? 
         
     <table>
@@ -168,10 +169,32 @@
             </div>
         </div>
 
-
-
-        
+        <div class="grid background-charcoal grid-middle island align-center">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island pad">
+                <h3 class="accent-white clear-margins caps">Try it yourself !</h3>
+                <p class="mega accent-white">There may not be such thing as a free lunch, but there <em>is</em> a free account and free premium trial with Hubaloo!</p>
+            </div>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
+                <a href="setup.html" class="no-line button-outline">Free&nbsp;Trial</a>
+            </div>
         </div>
-
+        
+        <footer class="grid footer-color island-half">
+		<div role="contentinfo" class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+			<p class="micro push-none copyright-footer">© 2014 Hubaloo SAAS by Vivienne&nbsp;Kay</p>
+		</div>
+        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-hidden unit-l-hidden">
+            <a href="index.html" class="mega to-top accent-red right">Back to Top</a>
+        </div>
+        <div class="unit unit-xs-hidden unit-s-hidden unit-m-1-2 unit-l-1-2 align-right">
+			<ul class="nav micro push-none nav-footer">
+				<li><a class="island-half nav-current" href="index.html">Home</a></li>
+				<li><a class="island-half" href="pricing.html">Pricing</a></li>
+				<li><a class="island-half" href="setup.html">Setup</a></li>
+            </ul>
+		</div>
+    </footer>
+    
+     </main>
 </body>
 </html>
