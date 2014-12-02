@@ -10,7 +10,9 @@
     color: white;
 }
 
-.accent-grey {
+.accent-grey,
+.accent-grey:link,
+.accent-grey:visited {
     color: #4C4C46;
 }
 

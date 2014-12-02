@@ -36,101 +36,60 @@
 		</div>
     </header>
     
-<!--Thomas, can you explain again why I have difficulties targeting my a class (to colour the type that's in this 'sign up' link, in this one instance)?-->
-    
     <main id="main" role="main">
         <div class="background-beige grid">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 intro align-center island">
-                <h1 class="h3 terra caps accent-red align-center">Let's get you started…</h1>
+                <h1 class="terra caps accent-red align-center">Let's get you started…</h1>
                 <p class="mega accent-grey align-center">Already love what you see? Hop over to our sign-up page</p>
-                <div class="align-center">
-                    <a href="setup.html" class="tera button-dark-outline accent-grey">Sign me up!</a>
-                </div>
             </div>
         </div>
-      
-<!-- Thomas: I don't think I will use a 'table' but IF I do in the futre, is this the way to hide the caption element so that it can just be for audio/accessibility purposes (rather than adding visual clutter)? 
         
-    <table>
-            <caption class="unit unit-xs-1-hidden unit-s-1-hidden unit-m-1-hidden unit-l-1-hidden">A summary of our Free Trial package</caption>
-            <thead>
-                <th scope="col">Free Trial</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>Feature 1</li>
-                            <li>Feature 2</li>
-                            <li>Feature 3</li>
-                            <li>Feature 4</li>
-                            <li>Feature 5</li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <th> Price: FREEBIES! </th>
-            </tfoot>
-        </table>
--->
-            
-<!--Thomas: Wow. Have I made a total mess of this table? HEALP! -->
-            
-<!--Thomas: This is my sorry attempt at an alternative (the table doesn't seem the best fit since I have no need for columns). I am trying to emulate what they have achieved here: http://sproutsocial.com/pricing but when I inspect their tables I get really confused (there's .js bits and a complicated seeming setup with headers and footers...it's another level of table-ception!-->
-
-<!--Thomas: how can I keep all my boxes the same size all the time? The text seems to push them to weird sizes...do I need to reduce my copy and text size or is there a magical alternative?-->
+<!--The grid-stretch class keeps the boxes the same size. Add the content-fill class to the ul's to target the elements that are affected/included.-->
         
-        <div class="grid">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 intro island">
-                <div class="border">
-                    <h1 class="background-charcoal accent-white align-center">Freemium</h1>
+        <div class="grid grid-stretch">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island unit-content-distribute">
+                    <h1 class="tera background-charcoal accent-white align-center price-title">Freemium</h1>
                     <p class="terra align-center">Easy-Peasy Startup with no costs</p>
-                    <ul>
+                    <ul class="content-fill">
                         <li>Introductory tutorials &amp; tips</li>
                         <li>Connect up to 3 social-media platforms</li>
                         <li>Weekly analytic reports (screen view only)</li>
                         <li>Daily tips and trend updates</li>
                         <li>24/5 Online chat support</li>
                     </ul>
-                    <a href="setup.html" class="h3 background-charcoal accent-white align-center">$0.00=Freebies!</a>
-                </div>
+                    <a href="setup.html" class="tera align-center accent-grey button-signup">$0.00=Freebies!</a>
             </div>
 
-           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 intro island">
-                <div class="border">
-                    <h1 class="background-charcoal accent-white align-center">Value</h1>
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island unit-content-distribute">
+                    <h1 class="tera background-charcoal accent-white align-center price-title">Value</h1>
                     <p class="terra align-center">Get started in style</p>
-                    <ul>
+                    <ul class="content-fill">
                         <li><em>includes all Freemium features, and…</em></li>
                         <li>Connect up to 10 social-media platforms</li>
                         <li>24/7 analytic reports (live view)</li>
                         <li>Calendar-integrated networking prompts</li>
                         <li>Daily updates on tips and trends</li>
                     </ul>
-                    <a href="setup.html" class="h3 background-charcoal accent-white align-center">$10.00/mo</a>
-                </div>
+                    <a href="setup.html" class="tera align-center accent-grey button-signup">$10.00/mo</a>
             </div>
 
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 intro island">
-                <div class="border">
-                    <h1 class="background-charcoal accent-white align-center">Premium</h1>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island unit-content-distribute">
+                    <h1 class="tera background-charcoal accent-white align-center price-title">Premium</h1>
                     <p class="terra align-center">This option might change your life…</p>
-                    <ul>
+                    <ul class="content-fill">
                         <li><em>includes all Value features, and…</em></li>
                         <li>Connect unlimited social-media platforms</li>
                         <li>Custom design &amp; brand support</li>
                         <li>Advanced social-media coaching</li>
                         <li>24/7 customer support</li>
                     </ul>
-                    <a href="setup.html" class="h3 background-charcoal accent-white align-center">$35.00/mo</a>
-                </div>
+                    <a href="setup.html" class="tera align-center accent-grey button-signup">$35.00/mo</a>
             </div>
 
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 intro island">
                 <h4 class="accent-grey">Get Support</h1>
                     <p>Call our support team to get more information on how Huballoo can fit into your personal or professional practice.</p>
-                <a href="setup.html" class="h3 background-charcoal accent-white align-center">Phone Consultation</a>
+                <a href="setup.html" class="tera align-center accent-grey background-light button-signup">Phone Consultation</a>
             </div>
             
             <div class="unit unit-xs-hidden unit-s-hidden unit-m-1-hidden unit-l-1-2 island align-center align-left vertical">
@@ -138,9 +97,9 @@
             </div>
         </div>
         
-        <div class="grid">
+        <div class="grid background-light">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1 align-center island">
-                <h1 class="background-light">Hubaloo's FAQs</h1>
+                <h1>Hubaloo's FAQs</h1>
             </div>
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 island">
                 <h4 class="giga">What payment methods do you accept?</h4>
@@ -175,7 +134,7 @@
                 <p class="mega accent-white">There may not be such thing as a free lunch, but there <em>is</em> a free account and free premium trial with Hubaloo!</p>
             </div>
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
-                <a href="setup.html" class="no-line button-outline">Free&nbsp;Trial</a>
+                <a href="setup.html" class="no-line button-pricing-trial">Free&nbsp;Trial</a>
             </div>
         </div>
         

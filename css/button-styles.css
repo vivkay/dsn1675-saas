@@ -85,3 +85,47 @@
     border:3px solid red; 
     background-color: none;
 }
+
+.button-signup{
+    border:3px solid #4C4C46;
+    border-radius: 5px;
+    font-size:12px;
+    font-family: "quattrocento sans", sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 8px 14px 8px 14px;
+    text-decoration: none; 
+    display:inline-block;
+    font-weight:bold; color: #4C4C46;
+    background-color: none; 
+    width: 100%;
+}
+
+.button-signup:hover{
+    cursor: pointer;
+    border:3px solid red; 
+    background-color: none;
+    color: red;
+}
+
+.button-pricing-trial{
+    border:3px solid white;
+    border-radius: 5px 15px 5px 15px;
+    font-size:12px;
+    font-family: "quattrocento sans", sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 10px 22px 10px 22px;
+    text-decoration: none; 
+    display:inline-block;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+    font-weight:bold; color: white;
+    background-color: none; 
+}
+
+.button-pricing-trial:hover{
+    cursor: pointer;
+    border:3px solid #B4B4B2; 
+    background-color: none;
+    color: #B4B4B2;
+}

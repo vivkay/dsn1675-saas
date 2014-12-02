@@ -255,6 +255,15 @@ tfoot th, {
     border-radius: 25px;
 }
 
+.price-button {
+    width: 100%;
+    text-decoration: none;
+}
+
+.price-title {
+    width: 100%;
+}
+
 @media only screen and (min-width: 25em) {
 	
     .nav {
