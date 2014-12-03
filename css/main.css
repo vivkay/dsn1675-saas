@@ -264,6 +264,26 @@ tfoot th, {
     width: 100%;
 }
 
+
+form {
+	margin: 0 auto;
+}
+
+.wide {
+	width: 100%;
+}
+
+.form {
+	background-color: #e2e2e2;
+	padding: 2em;
+}
+
+/**Thomas: is this radio class important?**/
+
+.radio {
+	white-space: nowrap;
+}
+
 @media only screen and (min-width: 25em) {
 	
     .nav {
