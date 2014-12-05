@@ -44,8 +44,28 @@
     background-color: #ff9a9a;
 }
 
+.button-light-coral{
+    border:0;
+    border-radius: 5px 15px 5px 15px;
+    font-size:12px;
+    font-family: "quattrocento sans", sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 8px 46px 8px 46px;
+    text-decoration: none; 
+    display:inline-block;
+    font-weight:bold; color: #FF6262;
+    background-color: #ff9a9a; 
+}
+
+.button-light-coral:hover{
+    cursor: pointer;
+    border:0; 
+    background-color: #FFC2C2;
+}
+
 .button-outline{
-    border:3px solid white;
+    border:3px solid currentColor;
     border-radius: 5px 15px 5px 15px;
     font-size:12px;
     font-family: "quattrocento sans", sans-serif;
@@ -55,14 +75,16 @@
     text-decoration: none; 
     display:inline-block;
     text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
-    font-weight:bold; color: #FFFFFF;
+    font-weight:bold; 
+    color: #FFFFFF;
     background-color: none; 
 }
 
 .button-outline:hover{
     cursor: pointer;
-    border:3px solid red; 
+    border:3px solid #FF6262; 
     background-color: none;
+    color: #FF6262;
 }
 
 .button-dark-outline{
@@ -76,13 +98,14 @@
     text-decoration: none; 
     display:inline-block;
     text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
-    font-weight:bold; color: #4C4C46;
+    font-weight:bold; 
+    color: #4C4C46;
     background-color: none; 
 }
 
 .button-dark-outline:hover{
     cursor: pointer;
-    border:3px solid red; 
+    border:3px solid #FF6262; 
     background-color: none;
 }
 
@@ -105,7 +128,7 @@
     cursor: pointer;
     border:3px solid currentColor; 
     background-color: none;
-    color: red;
+    color: #FF6262;
 }
 
 .button-pricing-trial{
