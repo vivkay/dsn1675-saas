@@ -1,7 +1,10 @@
 /** Type styles from http://thomasjbradley.github.io/typografier/ and set to 'minor third' scale **/
 
+
+/**Is this right for the type? I changed it a few times...**/
+
 html {
-  font: normal 100%/1.5 'quattrocento sans',sans-serif;
+  font: normal 100%/1.5 'Source Sans Pro', sans-serif;
 }
 
 
@@ -39,6 +42,17 @@ fieldset, pre, table {
 .yotta {
   font-size: 3.5832rem;
   line-height: 1.2559;
+}
+
+.yotta2 {
+  font-size: 3.5832rem;
+  line-height: 1.1;
+}
+
+.yotta300 {
+    font-size: 3rem;
+    line-height: 1.2559;
+    font-weight: 200;
 }
 
 .zetta {
@@ -193,19 +207,15 @@ sub {
   padding-right: 3.0000rem;
 }
 
-.h1-oswald {
-    font-family: "Oswald", sans-serif;
-}
-
 h1, h2, h3, h4, h5, h6, 
 .brand-family {
-font-family: "Quattrocento Sans", sans-serif;
+font-family: "source sans pro", sans-serif;
 }
 
 .default-family {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "source sans pro", sans-serif;
 }
-
+  
 .bold {
   font-weight: bold;
 }
@@ -218,3 +228,8 @@ font-family: "Quattrocento Sans", sans-serif;
   font-style: italic;
 }
 
+.width-200 {
+    font-family: "source sans pro", sans-serif;
+    font-weight: 200;
+    
+}

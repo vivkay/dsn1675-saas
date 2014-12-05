@@ -25,7 +25,7 @@
 
 .button-red{
     border:0;
-    border-radius: 5px;
+    border-radius: 5px 15px 5px 15px;
     font-size:12px;
     font-family: "quattrocento sans", sans-serif;
     font-size: 24px;
@@ -46,7 +46,7 @@
 
 .button-outline{
     border:3px solid white;
-    border-radius: 5px;
+    border-radius: 5px 15px 5px 15px;
     font-size:12px;
     font-family: "quattrocento sans", sans-serif;
     font-size: 24px;
@@ -66,8 +66,8 @@
 }
 
 .button-dark-outline{
-    border:3px solid #4C4C46;
-    border-radius: 5px;
+    border:3px solid currentColor;
+    border-radius: 5px 15px 5px 15px;
     font-size:12px;
     font-family: "quattrocento sans", sans-serif;
     font-size: 24px;
@@ -87,8 +87,8 @@
 }
 
 .button-signup{
-    border:3px solid #4C4C46;
-    border-radius: 5px;
+    border:3px solid currentColor;
+    border-radius: 5px 15px 5px 15px;
     font-size:12px;
     font-family: "quattrocento sans", sans-serif;
     font-size: 24px;
@@ -103,13 +103,14 @@
 
 .button-signup:hover{
     cursor: pointer;
-    border:3px solid red; 
+    border:3px solid currentColor; 
     background-color: none;
     color: red;
 }
 
 .button-pricing-trial{
-    border:3px solid white;
+    border:3px solid currentColor;
+    color: white;
     border-radius: 5px 15px 5px 15px;
     font-size:12px;
     font-family: "quattrocento sans", sans-serif;

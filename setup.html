@@ -9,7 +9,8 @@
     <link href="css/color.css" rel="stylesheet">
     <link href="css/button-styles.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 
@@ -18,7 +19,7 @@
 		<li><a href="#navigation">Jump to navigation</a></li>
 	</ul>
     
-    <header role="banner" class="grid background-beige">
+    <header role="banner" class="grid background-light">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">
             <a href="index.html">
                 <img src="img/hubaloo-logo.svg" alt="hubaloo logo" class="logo">
@@ -37,17 +38,15 @@
     </header>
     
     <main id="main" role="main">
-        <div class="background-beige grid">
+        <div class="background-light grid">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 intro align-center island">
-                <h1 class="terra caps accent-red align-center">Sign-up in 2 easy steps!</h1>
+                <h1 class="tera caps accent-red align-center">Sign-up in 2 easy steps!</h1>
                 <p class="mega accent-grey align-center">You're one step closer to inter-webular domination already!</p>
             </div>
         </div>
-        
 
-        
-        <div class="form grid">		
-			<form action="thank-you.html" method="get">
+        <div class="form">		
+			<form action="thank-you.html" method="get" class="grid">
         
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-2 island">
             <div>
@@ -108,24 +107,26 @@
 					<input type="radio" id="good" name="awesomeness">
 					<label for="good">No</label>
 				</span>
+            </fieldset>
 			<div>
 				<label for="explain" class="pad-t">Additional questions or comments</label>
 				<textarea class="wide" id="explain" placeholder="Type questions or comments here and we'll get back to you!"></textarea>
 			</div> 
                 
-            </form>
+            
 		</div>
-                
+              
 <!--Thomas, I want the button to be pulled out/at the bottom of both forms. Do I need to keep it inside the form elements? Also, how can I push it to the right unit/right side of the screen at the large size?-->
    
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 align-right island">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-offset-l-1-2 align-right island">
             <div class="button">
 				<button type="submit" class="button-signup">Sign Up</button>
 			</div>
     </div>  
-                
-<!--Thomas: funky footer?-->
-                
+         </form>  
+            </div>
+        
+        
     <footer class="grid footer-color island-half">
 		<div role="contentinfo" class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
 			<p class="micro push-none copyright-footer">© 2014 Hubaloo SAAS by Vivienne&nbsp;Kay</p>

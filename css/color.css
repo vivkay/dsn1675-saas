@@ -16,12 +16,12 @@
     color: #4C4C46;
 }
 
-.background-beige {
-    background-color: #FFFFEB;
+.background-coral {
+    background-color: #FF6262;
 }
 
 .background-light {
-    background-color: #EEEEEA;
+    background-color: #FAF8F2;
 }
 
 .background-charcoal {
@@ -30,9 +30,4 @@
 
 .footer-color {
     background-color: #D4D4CB;
-}
-
-.light-grey4 {
-	background-color: #e2e2e2;
-	padding: 2em;
 }
