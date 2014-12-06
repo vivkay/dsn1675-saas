@@ -318,6 +318,10 @@ form {
     .nav a {
     padding-top: 2.5rem; 
     }
+    
+    .wide {
+    width: 50%;
+}
 
 }
 
