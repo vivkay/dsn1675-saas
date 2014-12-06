@@ -1,0 +1,76 @@
+form {
+	margin: 0 auto;
+}
+
+.wide {
+	width: 100%;
+}
+
+label {
+    display: block;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+input,
+select,
+textarea {
+    width: 15em;
+    font-size: 1.125rem;
+}
+
+/* The padding option doesn't seem to be affecting anything here? */
+
+textarea {
+    height: 10em;
+    padding: 0.5em;
+}
+
+input,
+textarea {
+    border: 1px solid #9A9A9D;
+    padding: 0.3em;
+    background-color: white;
+}
+
+/* I want the boxes to turn light grey when you click in them but this isn't working? */
+
+input: focus,
+textarea:focus {
+    background-color: #E9E9E9;
+}
+
+/**Thomas: is this radio class important?**/
+
+.radio {
+	white-space: nowrap;
+}
+
+/** I just want the color of the radio button to be coral/pink instead of default blue**/
+.radiostyle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+
+input [type=radio]:checked:before {
+    color: red;
+    background-color: blue;
+}
+
+
+/**Thomas: can I include this media query here rather than in main.css?**/
+
+@media only screen and (min-width: 38em) {
+    
+    .wide-m-l {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+}

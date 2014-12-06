@@ -8,10 +8,13 @@
     <link href="css/typography.css" rel="stylesheet">
     <link href="css/color.css" rel="stylesheet">
     <link href="css/button-styles.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
+    
+<!--Thomas: Can I delete the css/form.css from other pages and leave it only on this one?-->
 
     <ul class="skip-links">
 		<li><a href="#main">Jump to main content</a></li>
@@ -43,49 +46,35 @@
             </div>
         </div>
 
-        <div class="form">		
-			<form action="thank-you.html" method="get" class="grid">
+<!--Thomas. Should I use method="get" or method="post" here?-->	
         
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1 island-2">
-            <div>
-                <h3 class="tera">Step 1: General Info</h3>
-            </div>    
+        <form action="thank-you.html" method="get" class="grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1 island-2 wide-m-l">
                 <div>
-                    <label for="name">Name</label>
-                    <input class="wide" id="name">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input class="wide" type="email" id="email" placeholder="example@example.com">
-                </div>
-                <fieldset class="push-none">
-                    <legend class="pad-t"><em>Which Product do you want?</em></legend>
-                    <span class="radio">
-                        <input type="radio" id="meh" name="awesomeness">
-                        <label for="meh">Freemium</label>
-                    </span>
-                    <span class="radio">
-                        <input type="radio" id="good" name="awesomeness">
-                        <label for="good">Value</label>
-                    </span>
-                    <span class="radio">
-                        <input type="radio" id="super" name="awesomeness">
-                        <label for="super">Premium</label>
-                    </span>
-                    <span class="radio">
-                        <input type="radio" id="super" name="awesomeness">
-                        <label for="super">Premium Trial (30 day)</label>
-                    </span>
-                </fieldset>
-                <div>
-                    <label for="explain" class="pad-t">Additional questions or comments</label>
-                    <textarea class="wide" id="explain" placeholder="Type questions or comments here and we'll get back to you!"></textarea>
-                </div>
-            </div>
-         
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1 island-2">            
-        <div>
-            <h3 class="tera background-light wide">Step 2: Connect your Twitter</h3>
+                    <h3 class="tera">Step 1: General Info</h3>
+                </div>    
+                    <div>
+                        <label for="name">Name</label>
+                        <input class="wide" id="name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input class="wide" type="email" id="email" placeholder="example@example.com">
+                    </div>
+                    <div>
+                    </div>
+                    <div>                
+                        <label for="product">Product</label>
+                        <select id="product">
+                            <option class="tera">Freemium (Free)</option>
+                            <option>Value ($10.00)</option>
+                            <option>Premium ($35.00)</option>
+                            <option>Premium Trial (Free for 30 days)</option>
+                        </select>
+                    </div>
+                
+                        <div>
+            <h3 class="tera wide pad-t-2">Step 2: Connect your Twitter</h3>
         </div>
             <div>
 				<label for="name">Your Twitter Handle</label>
@@ -96,14 +85,14 @@
 				<input class="wide" type="email" id="email" placeholder="example@example.com">
 			</div>
 			<fieldset class="push-none">
-				<legend class="pad-t"><em>I authorize Hubaloo to access my twitter account</em></legend>
+				<legend class="pad-t"><em>I understand that by completing this form, I authorize Hubaloo to access my twitter account</em></legend>
 				<span class="radio">
-					<input type="radio" id="meh" name="awesomeness">
-					<label for="meh">Yes</label>
+					<input type="radio" id="agree" name="terms" class="radiostyle">
+					<label for="agree">Agree</label>
 				</span>
 				<span class="radio">
-					<input type="radio" id="good" name="awesomeness">
-					<label for="good">No</label>
+					<input type="radio" id="disagree" name="terms" class="radiostyle">
+					<label for="disagree">Disagree</label>
 				</span>
             </fieldset>
 			<div>
@@ -111,19 +100,16 @@
 				<textarea class="wide" id="explain" placeholder="Type questions or comments here and we'll get back to you!"></textarea>
 			</div> 
                 
-            
-		</div>
-              
-<!--Thomas, I want the button to be pulled out/at the bottom of both forms. Do I need to keep it inside the form elements? Also, how can I push it to the right unit/right side of the screen at the large size?-->
-   
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-offset-l-1-2 align-right island">
-            <div class="button">
-				<button type="submit" class="button-signup">Sign Up</button>
-			</div>
-    </div>  
-         </form>  
+                <div class="button">
+                    <button type="submit" class="button-signup">Sign Up</button>
+                </div>
             </div>
-        
+        </form> 
+
+<!-- Thomas: how do I make the select/option box (above) larger and coral color? -->
+<!-- Thomas: how do I style the text inside this box? I tried putting a tera class on one (above) but no dice... -->
+<!-- Thomas: how do I get the two radio buttons to appear side-by-side? They already have an inline-block class (radiostyle)-->
+<!-- Thomas: I am trying to style my radio buttons so they are pink/coral instead of blue. Is this doable? - see .radiostyle in form.css -->
         
     <footer class="grid footer-color island-half">
 		<div role="contentinfo" class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
