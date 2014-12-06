@@ -249,6 +249,10 @@ a:active {
     width: 50%;
 }
 
+.width-60 {
+    width: 60%;
+}
+
 @media only screen and (min-width: 25em) {
 	
     .nav {
