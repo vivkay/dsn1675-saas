@@ -50,6 +50,10 @@ body {
     margin-right: auto;
 }
 
+.block {
+    display: block;
+}
+
 .width-80 {
     width: 80%;
 }
