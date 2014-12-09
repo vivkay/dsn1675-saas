@@ -145,6 +145,14 @@ sub {
   font-style: italic;
 }
 
+.push-left {
+    margin-left: 1.5rem;
+}
+
+.push-right {
+    margin-right: 1.5rem;
+}
+
 .push {
   margin-bottom: 1.5rem;
 }
