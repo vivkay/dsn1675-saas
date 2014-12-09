@@ -45,8 +45,8 @@ fieldset, pre, table {
 }
 
 .yotta2 {
-  font-size: 3.5832rem;
-  line-height: 1.1;
+  font-size: 2.5832rem;
+  line-height: 1;
 }
 
 .yotta300 {
@@ -149,8 +149,16 @@ sub {
     margin-left: 1.5rem;
 }
 
+.push-l-2 {
+    margin-left: 3rem;
+}
+
 .push-right {
     margin-right: 1.5rem;
+}
+
+.push-r-2 {
+    margin-right: 3rem;
 }
 
 .push {
@@ -254,4 +262,12 @@ font-family: "source sans pro", sans-serif;
 .type-200 {
     font-family: "source sans pro", sans-serif;
     font-weight: 200;   
+}
+
+
+@media only screen and (min-width: 38em) {
+    .yotta2 {
+      font-size: 3.5832rem;
+      line-height: 1.1;
+    }
 }
