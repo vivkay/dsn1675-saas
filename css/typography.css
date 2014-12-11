@@ -145,7 +145,7 @@ sub {
   font-style: italic;
 }
 
-.push-left {
+.push-left, .push-l {
     margin-left: 1.5rem;
 }
 
