@@ -120,7 +120,7 @@
     text-decoration: none; 
     display:inline-block;
     font-weight:bold; color: #4C4C46;
-    background-color: none; 
+    background-color: transparent; 
     width: 100%;
 }
 
