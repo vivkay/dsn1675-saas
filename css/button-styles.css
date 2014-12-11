@@ -100,7 +100,7 @@
     text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
     font-weight:bold; 
     color: #4C4C46;
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 .button-back-home:hover{
@@ -168,6 +168,7 @@
     display:inline-block;
     font-weight:bold; color: #FF6262;
     background-color: #ff9a9a; 
+    float: left;
 }
 
 .button-light-coral:hover{

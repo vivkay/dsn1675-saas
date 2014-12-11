@@ -13,8 +13,13 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="background-coral">
+    
+    <ul class="skip-links">
+		<li><a href="#main">Jump to main content</a></li>
+		<li><a href="#navigation">Jump to navigation</a></li>
+	</ul>  
 
-    <main id="main" role="main" class="grid island-2">
+    <main id="main" role="main" class="grid island-2 grid-middle">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
             <h1 class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 zetta type-200 accent-white align-center">Thanks for signing up with Hubaloo!</h1>
             <p class="mega accent-white align-center pad-b">A confirmation email has been sent to your inbox.</p>
@@ -22,24 +27,26 @@
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <img src="img/thanks-100px-2.svg" class="width-80-center block animated bounce" alt="illustration of penguin with envelope">
         </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2 auto-center">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island-2">
         <a href="index.html" class="tera button-back-home">Home Page</a>
         </div>
     </main>
     
-        <footer class="grid footer-color island-half">
+    <footer class="grid footer-black island-half">
 		<div role="contentinfo" class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
 			<p class="micro push-none copyright-footer accent-white">© 2014 Hubaloo SAAS by Vivienne&nbsp;Kay</p>
 		</div>
         <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-hidden unit-l-hidden">
-            <a href="index.html" class="mega to-top accent-red right">Back to Top</a>
+            <a href="index.html" class="mega to-top accent-red right">Home</a>
         </div>
         <div class="unit unit-xs-hidden unit-s-hidden unit-m-1-2 unit-l-1-2 align-right">
-			<ul class="nav micro push-none nav-footer">
-				<li><a class="island-half" href="index.html">Home</a></li>
-				<li><a class="island-half" href="pricing.html">Pricing</a></li>
-				<li><a class="island-half" href="setup.html">Sign-up</a></li>
-            </ul>
+            <nav role="navigation" id="navigation">
+                <ul class="nav micro push-none nav-footer">
+                    <li><a class="island-half nav-current" href="index.html">Home</a></li>
+                    <li><a class="island-half" href="pricing.html">Pricing</a></li>
+                    <li><a class="island-half" href="setup.html">Sign-up</a></li>
+                </ul>
+            </nav>
 		</div>
     </footer>
     
