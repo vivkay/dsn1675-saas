@@ -49,12 +49,13 @@
     border-radius: 3px 10px 3px 10px;
     font-size: 16px;
     font-family: "quattrocento sans", sans-serif;
-    text-transform: capitalize;
-    padding: 6px 36px 6px 36px;
+    padding: 6px 22px 6px 22px;
     text-decoration: none; 
     display:inline-block;
     font-weight:bold; color: #FF6262;
     background-color: #ff9a9a; 
+    float: right;
+    margin-right: 30px;
 }
 
 .button-light-coral:hover{
@@ -86,7 +87,7 @@
     color: #FF6262;
 }
 
-.button-dark-outline{
+.button-back-home{
     border:3px solid currentColor;
     border-radius: 5px 15px 5px 15px;
     font-size:12px;
@@ -102,10 +103,11 @@
     background-color: transparent; 
 }
 
-.button-dark-outline:hover{
+.button-back-home:hover{
     cursor: pointer;
-    border:3px solid #FF6262; 
+    border:3px solid currentColor; 
     background-color: transparent;
+    color: #FFC2C2;
 }
 
 .button-signup{

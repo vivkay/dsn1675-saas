@@ -65,10 +65,10 @@ body {
 }
 
 .icon {
-    width: 100px;
     display: inline-block; 
     text-align: right;
     margin: 0 auto;
+    width: 80%;
 }
 
 .skip-links {
@@ -219,9 +219,6 @@ a:active {
     text-align: right;
 }  
 
-.icon {
-    display: block;
-}
 
 .center-auto {
     margin-left: auto;
@@ -260,11 +257,6 @@ a:active {
 
 .width-60 {
     width: 60%;
-}
-
-.icon {
-    display:inline-block;
-    height: 60px;
 }
 
 .billboard-xs {
