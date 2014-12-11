@@ -260,6 +260,7 @@ a:active {
 
 .icon {
     display:inline-block;
+    height: 60px;
 }
 
 .billboard-xs {
