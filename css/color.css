@@ -39,3 +39,8 @@
 .footer-color {
     background-color: #FF6262;
 }
+
+.test-penguin {
+    background-image: url("../img/sandbox-100px.svg");
+    background-size: auto 100%;
+}
