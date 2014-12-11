@@ -46,12 +46,11 @@
 
 .button-light-coral{
     border:0;
-    border-radius: 5px 15px 5px 15px;
-    font-size:12px;
+    border-radius: 3px 10px 3px 10px;
+    font-size: 16px;
     font-family: "quattrocento sans", sans-serif;
-    font-size: 24px;
     text-transform: capitalize;
-    padding: 8px 46px 8px 46px;
+    padding: 6px 36px 6px 36px;
     text-decoration: none; 
     display:inline-block;
     font-weight:bold; color: #FF6262;
@@ -152,4 +151,27 @@
     border:3px solid #B4B4B2; 
     background-color: none;
     color: #B4B4B2;
+}
+
+@media only screen and (min-width: 38em) {
+.button-light-coral{
+    border:0;
+    border-radius: 5px 15px 5px 15px;
+    font-size:12px;
+    font-family: "quattrocento sans", sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 8px 46px 8px 46px;
+    text-decoration: none; 
+    display:inline-block;
+    font-weight:bold; color: #FF6262;
+    background-color: #ff9a9a; 
+}
+
+.button-light-coral:hover{
+    cursor: pointer;
+    border:0; 
+    background-color: #FFC2C2;
+}
+
 }
